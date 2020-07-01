@@ -2,7 +2,7 @@
 node {
         stage('Checkout SCM'){
                 //git branch: 'SP2', url: 'git@github.com:kalyan11021980/angular-ssr-starter.git'
-                git branch: 'SP2', url: 'git@github.com:snsahu/angular-ssr-starter.git'                
+                //git branch: 'SP2', url: 'git@github.com:snsahu/angular-ssr-starter.git'                
         }
 
         stage('Install node modules'){
